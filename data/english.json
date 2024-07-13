@@ -1,0 +1,51 @@
+[
+  {
+    "action_name_": "seminar",
+    "player_affect_": {
+      "energy" : -0.111,
+      "loneliness": 0.111,
+      "studying_capacity": -0.111
+    },
+    "is_study" : true,
+    "subject_name" : "English",
+    "additional_progress_": {
+      "theory": 0.033,
+      "practice": 0.033,
+      "grade": 0.022,
+      "name": "English"
+    },
+    "study_req_": {
+      "theory_req": 0,
+      "practice_req": 0
+    },
+    "req_change_": {
+      "theory_req": 3,
+      "practice_req": 3
+    },
+    "schedule_": [
+      {"time" : {"day": 1,
+        "time": 750},
+        "duration": 90},
+      {"time" : {"day": 4,
+        "time": 740},
+        "duration": 90}
+    ]
+  },
+  {
+    "action_name_": "homework",
+    "player_affect_": {
+      "energy" : -0.166,
+      "loneliness": -0.166,
+      "studying_capacity": -0.166
+    },
+    "is_study" : true,
+    "is_always_available": true,
+    "subject_name" : "English",
+    "additional_progress_": {
+      "theory": 0.022,
+      "practice": 0.022,
+      "grade": 0.033,
+      "name": "English"
+    }
+  }
+]

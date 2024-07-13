@@ -1,0 +1,106 @@
+[
+  {
+    "action_name_": "lecture",
+    "player_affect_": {
+      "energy" : -0.111,
+      "loneliness": 0.111,
+      "studying_capacity": -0.111
+    },
+    "is_study" : true,
+    "subject_name" : "FCNT",
+    "additional_progress_": {
+      "theory": 0.111,
+      "practice": 0,
+      "grade": 0,
+      "name": "FCNT"
+    },
+    "study_req_": {
+      "theory_req": 0,
+      "practice_req": 0
+    },
+    "req_change_": {
+      "theory_req": 6,
+      "practice_req": 0
+    },
+    "schedule_": [
+      {"time" : {"day": 3,
+        "time": 645},
+        "duration": 90}
+    ]
+  },
+  {
+    "action_name_": "seminar",
+    "player_affect_": {
+      "energy" : -0.111,
+      "loneliness": 0.111,
+      "studying_capacity": -0.111
+    },
+    "is_study" : true,
+    "subject_name" : "FCNT",
+    "additional_progress_": {
+      "theory": 0.022,
+      "practice": 0.077,
+      "grade": 0.022,
+      "name": "FCNT"
+    },
+    "study_req_": {
+      "theory_req": 0,
+      "practice_req": 0
+    },
+    "req_change_": {
+      "theory_req": 6,
+      "practice_req": 6
+    },
+    "schedule_": [
+      {"time" : {"day": 3,
+        "time": 930},
+        "duration": 90}
+    ]
+  },
+  {
+    "action_name_": "test",
+    "player_affect_": {
+      "energy" : -0.125,
+      "loneliness": -0.125,
+      "studying_capacity": -0.250
+    },
+    "is_study" : true,
+    "subject_name" : "FCNT",
+    "additional_progress_": {
+      "theory": 0,
+      "practice": 0,
+      "grade": 0.2,
+      "name": "FCNT"
+    },
+    "study_req_": {
+      "theory_req": 0,
+      "practice_req": 0
+    },
+    "req_change_": {
+      "theory_req": 7,
+      "practice_req": 7
+    },
+    "schedule_": [
+      {"time" : {"day": 2,
+        "time": 740},
+        "duration": 40}
+    ]
+  },
+  {
+    "action_name_": "homework",
+    "player_affect_": {
+      "energy" : -0.166,
+      "loneliness": -0.166,
+      "studying_capacity": -0.166
+    },
+    "is_study" : true,
+    "is_always_available": true,
+    "subject_name" : "FCNT",
+    "additional_progress_": {
+      "theory": 0.033,
+      "practice": 0.050,
+      "grade": 0,
+      "name": "FCNT"
+    }
+  }
+]

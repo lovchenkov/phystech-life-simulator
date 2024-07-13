@@ -1,0 +1,107 @@
+[
+  {
+    "action_name_": "lecture",
+    "player_affect_": {
+      "energy" : -0.111,
+      "loneliness": 0.111,
+      "studying_capacity": -0.111
+    },
+    "is_study" : true,
+    "is_always_available": false,
+    "subject_name" : "MathLog",
+    "additional_progress_": {
+      "theory": 0.066,
+      "practice": 0,
+      "grade": 0,
+      "name": "MathLog"
+    },
+    "study_req_": {
+      "theory_req": 0,
+      "practice_req": 0
+    },
+    "req_change_": {
+      "theory_req": 8,
+      "practice_req": 0
+    },
+    "schedule_": [
+      {"time" : {"day": 2,
+        "time": 1025},
+        "duration": 90}
+    ]
+  },
+  {
+    "action_name_": "seminar",
+    "player_affect_": {
+      "energy" : -0.166,
+      "loneliness": 0.111,
+      "studying_capacity": -0.111
+    },
+    "is_study" : true,
+    "subject_name" : "MathLog",
+    "additional_progress_": {
+      "theory": 0.022,
+      "practice": 0.066,
+      "grade": 0,
+      "name": "MathLog"
+    },
+    "study_req_": {
+      "theory_req": 0,
+      "practice_req": 0
+    },
+    "req_change_": {
+      "theory_req": 6,
+      "practice_req": 6
+    },
+    "schedule_": [
+      {"time" : {"day": 0,
+        "time": 835},
+        "duration": 90}
+    ]
+  },
+  {
+    "action_name_": "test",
+    "player_affect_": {
+      "energy" : -0.250,
+      "loneliness": -0.250,
+      "studying_capacity": -0.375
+    },
+    "is_study" : true,
+    "subject_name" : "MathLog",
+    "additional_progress_": {
+      "theory": 0,
+      "practice": 0,
+      "grade": 0.15,
+      "name": "MathLog"
+    },
+    "study_req_": {
+      "theory_req": 0,
+      "practice_req": 0
+    },
+    "req_change_": {
+      "theory_req": 7,
+      "practice_req": 7
+    },
+    "schedule_": [
+      {"time" : {"day": 2,
+        "time": 780},
+        "duration": 40}
+    ]
+  },
+  {
+    "action_name_": "homework",
+    "player_affect_": {
+      "energy" : -0.166,
+      "loneliness": -0.166,
+      "studying_capacity": -0.166
+    },
+    "is_study" : true,
+    "is_always_available": true,
+    "subject_name" : "MathLog",
+    "additional_progress_": {
+      "theory": 0.011,
+      "practice": 0.022,
+      "grade": 0.022,
+      "name": "MathLog"
+    }
+  }
+]

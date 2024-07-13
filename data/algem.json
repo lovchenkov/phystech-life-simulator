@@ -1,0 +1,77 @@
+[
+  {
+    "action_name_": "lecture",
+    "player_affect_": {
+      "energy" : -0.074,
+      "loneliness": 0.074,
+      "studying_capacity": -0.074
+    },
+    "is_study" : true,
+    "subject_name" : "AlGem",
+    "additional_progress_": {
+      "theory": 0.051,
+      "practice": 0,
+      "grade": 0,
+      "name": "AlGem"
+    },
+    "study_req_": {
+      "theory_req": 0,
+      "practice_req": 0
+    },
+    "req_change_": {
+      "theory_req": 8,
+      "practice_req": 0
+    },
+    "schedule_": [
+      {"time" : {"day": 2,
+        "time": 835},
+        "duration": 135}
+    ]
+  },
+  {
+    "action_name_": "seminar",
+    "player_affect_": {
+      "energy" : -0.148,
+      "loneliness": 0.074,
+      "studying_capacity": -0.074
+    },
+    "is_study" : true,
+    "subject_name" : "AlGem",
+    "additional_progress_": {
+      "theory": 0.022,
+      "practice": 0.037,
+      "grade": 0.029,
+      "name": "AlGem"
+    },
+    "study_req_": {
+      "theory_req": 0,
+      "practice_req": 0
+    },
+    "req_change_": {
+      "theory_req": 4,
+      "practice_req": 7
+    },
+    "schedule_": [
+      {"time" : {"day": 4,
+        "time": 930},
+        "duration": 135}
+    ]
+  },
+  {
+    "action_name_": "homework",
+    "player_affect_": {
+      "energy" : -0.125,
+      "loneliness": -0.125,
+      "studying_capacity": -0.125
+    },
+    "is_study" : true,
+    "is_always_available": true,
+    "subject_name" : "AlGem",
+    "additional_progress_": {
+      "theory": 0,
+      "practice": 0.02,
+      "grade": 0.025,
+      "name": "AlGem"
+    }
+  }
+]

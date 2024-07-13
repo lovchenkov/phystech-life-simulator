@@ -1,0 +1,24 @@
+[
+  {
+    "action_name_": "tutoring",
+    "player_affect_": {
+      "energy" : -0.166,
+      "loneliness": -0.083,
+      "studying_capacity": -0.166
+    },
+    "is_study" : false,
+    "is_always_available": true,
+    "salary_" : 5
+  },
+  {
+    "action_name_": "freelance",
+    "player_affect_": {
+      "energy" : -0.111,
+      "loneliness": -0.222,
+      "studying_capacity": -0.111
+    },
+    "is_study" : false,
+    "is_always_available": true,
+    "salary_" : 8
+  }
+]

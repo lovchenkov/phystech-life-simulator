@@ -1,0 +1,77 @@
+[
+  {
+    "action_name_": "lecture",
+    "player_affect_": {
+      "energy" : -0.055,
+      "loneliness": 0.111,
+      "studying_capacity": -0.055
+    },
+    "is_study" : true,
+    "subject_name" : "C++",
+     "additional_progress_": {
+      "theory": 0.077,
+      "practice": 0,
+      "grade": 0,
+      "name": "C++"
+    },
+    "study_req_": {
+      "theory_req": 0,
+      "practice_req": 0
+    },
+    "req_change_": {
+      "theory_req": 7,
+      "practice_req": 0
+    },
+    "schedule_": [
+      {"time" : {"day": 1,
+        "time": 540},
+        "duration": 90}
+    ]
+  },
+  {
+    "action_name_": "seminar",
+    "player_affect_": {
+      "energy" : -0.027,
+      "loneliness": 0.111,
+      "studying_capacity": -0.027
+    },
+    "is_study" : true,
+    "subject_name" : "C++",
+    "additional_progress_": {
+      "theory": 0.016,
+      "practice": 0.011,
+      "grade": 0,
+      "name": "C++"
+    },
+    "study_req_": {
+      "theory_req": 0,
+      "practice_req": 0
+    },
+    "req_change_": {
+      "theory_req": 7,
+      "practice_req": 2
+    },
+    "schedule_": [
+      {"time" : {"day": 4,
+        "time": 835},
+        "duration": 90}
+    ]
+  },
+  {
+    "action_name_": "homework",
+    "player_affect_": {
+      "energy" : -0.083,
+      "loneliness": -0.083,
+      "studying_capacity": -0.083
+    },
+    "is_study" : true,
+    "is_always_available": true,
+    "subject_name" : "C++",
+    "additional_progress_": {
+      "theory": 0,
+      "practice": 0.01,
+      "grade": 0.014,
+      "name": "C++"
+    }
+  }
+]

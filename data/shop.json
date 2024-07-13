@@ -1,0 +1,52 @@
+[
+  {
+    "name_": "apple",
+    "player_affect_": {
+      "energy" : 4,
+      "loneliness": 0,
+      "studying_capacity": 0
+    },
+    "cost_": 15,
+    "count_" : 1
+  },
+  {
+    "name_": "anime_CD",
+    "player_affect_": {
+      "energy" : 10,
+      "loneliness": -10,
+      "studying_capacity": -5
+    },
+    "cost_": 150,
+    "count_" : 6
+  },
+  {
+    "name_": "laptop",
+    "player_affect_": {
+      "energy" : 50,
+      "loneliness": 20,
+      "studying_capacity": 40
+    },
+    "cost_": 15000,
+    "count_" : 2
+  },
+  {
+    "name_": "coffee",
+    "player_affect_": {
+      "energy" : 20,
+      "loneliness": -20,
+      "studying_capacity": 0
+    },
+    "cost_": 50,
+    "count_" : 8
+  },
+  {
+    "name_": "buhlo",
+    "player_affect_": {
+      "energy" : -10,
+      "loneliness": 20,
+      "studying_capacity": -15
+    },
+    "cost_": 100,
+    "count_" : 4
+  }
+]

@@ -1,0 +1,12 @@
+[
+  {
+    "name_": "apple",
+    "player_affect_": {
+      "energy" : 4,
+      "loneliness": 0,
+      "studying_capacity": 0
+    },
+    "cost_": 15,
+    "count_" : 2
+  }
+]

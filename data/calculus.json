@@ -1,0 +1,80 @@
+[
+  {
+    "action_name_": "lecture",
+    "player_affect_": {
+      "energy" : -0.055,
+      "loneliness": 0.055,
+      "studying_capacity": -0.055
+    },
+    "is_study" : true,
+    "subject_name" : "Calculus",
+    "additional_progress_": {
+      "theory": 0.033,
+      "practice": 0,
+      "grade": 0,
+      "name": "Calculus"
+    },
+    "study_req_": {
+      "theory_req": 0,
+      "practice_req": 0
+    },
+    "req_change_": {
+      "theory_req": 6,
+      "practice_req": 0
+    },
+    "schedule_": [
+      {"time" : {"day": 2,
+                 "time": 645},
+       "duration": 90},
+      {"time" : {"day": 3,
+                 "time": 540},
+       "duration": 90}
+    ]
+  },
+  {
+    "action_name_": "seminar",
+    "player_affect_": {
+      "energy" : -0.111,
+      "loneliness": 0.055,
+      "studying_capacity": -0.055
+    },
+    "is_study" : true,
+    "subject_name" : "Calculus",
+    "additional_progress_": {
+      "theory": 0.017,
+      "practice": 0.027,
+      "grade": 0.022,
+      "name": "Calculus"
+    },
+    "study_req_": {
+      "theory_req": 0,
+      "practice_req": 0
+    },
+    "req_change_": {
+      "theory_req": 6,
+      "practice_req": 6
+    },
+    "schedule_": [
+      {"time" : {"day": 1,
+                 "time": 930},
+       "duration": 180}
+    ]
+  },
+  {
+    "action_name_": "homework",
+    "player_affect_": {
+      "energy" : -0.166,
+      "loneliness": -0.166,
+      "studying_capacity": -0.166
+    },
+    "is_study" : true,
+    "is_always_available": true,
+    "subject_name" : "Calculus",
+    "additional_progress_": {
+      "theory": 0.002,
+      "practice": 0.010,
+      "grade": 0.011,
+      "name": "Calculus"
+    }
+  }
+]

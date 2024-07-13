@@ -1,0 +1,34 @@
+[
+  {
+    "name": "room",
+    "coefficients": {
+      "energy" : 1,
+      "loneliness": 1,
+      "studying_capacity": 1
+    }
+  },
+  {
+    "name": "coworking",
+    "coefficients": {
+      "energy" : 2,
+      "loneliness": 2,
+      "studying_capacity": 2
+    }
+  },
+  {
+    "name": "main corpus",
+    "coefficients": {
+      "energy" : 3,
+      "loneliness": 3,
+      "studying_capacity": 3
+    }
+  },
+  {
+    "name": "botalka",
+    "coefficients": {
+      "energy" : 2,
+      "loneliness": 2,
+      "studying_capacity": 2
+    }
+  }
+]

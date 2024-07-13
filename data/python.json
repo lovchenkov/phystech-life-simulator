@@ -1,0 +1,77 @@
+[
+  {
+    "action_name_": "seminar",
+    "player_affect_": {
+      "energy" : -0.125,
+      "loneliness": 0.125,
+      "studying_capacity": -0.125
+    },
+    "is_study" : true,
+    "subject_name" : "Python",
+    "additional_progress_": {
+      "theory": 0.075,
+      "practice": 0.075,
+      "grade": 0,
+      "name": "Python"
+    },
+    "study_req_": {
+      "theory_req": 0,
+      "practice_req": 0
+    },
+    "req_change_": {
+      "theory_req": 7,
+      "practice_req": 7
+    },
+    "schedule_": [
+      {"time" : {"day": 4,
+        "time": 1115},
+        "duration": 80}
+    ]
+  },
+  {
+    "action_name_": "test",
+    "player_affect_": {
+      "energy" : -1,
+      "loneliness": -1,
+      "studying_capacity": -1.5
+    },
+    "is_study" : true,
+    "subject_name" : "Python",
+    "additional_progress_": {
+      "theory": 0,
+      "practice": 0,
+      "grade": 0.5,
+      "name": "Python"
+    },
+    "study_req_": {
+      "theory_req": 0,
+      "practice_req": 0
+    },
+    "req_change_": {
+      "theory_req": 8,
+      "practice_req": 8
+    },
+    "schedule_": [
+      {"time" : {"day": 4,
+        "time": 1195},
+        "duration": 10}
+    ]
+  },
+  {
+    "action_name_": "homework",
+    "player_affect_": {
+      "energy" : -0.166,
+      "loneliness": -0.166,
+      "studying_capacity": -0.116
+    },
+    "is_study" : true,
+    "is_always_available": true,
+    "subject_name" : "Python",
+    "additional_progress_": {
+      "theory": 0.016,
+      "practice": 0.016,
+      "grade": 0.020,
+      "name": "Python"
+    }
+  }
+]
